@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*  ========================= NavBar =========================== */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 4rem;
+    height: 4rem;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    
+}
+nav a {
+    text-decoration: none;
+    color: crimson;
+}
+nav ul li a {
+    margin: 0.4rem;
+    text-decoration: none;
+    color: crimson;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+/*  ========================= Main Container =========================== */
+main {
+    display: flex;
+}
+
+.selector {
+    width: 15%;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    min-height: 100vh;
+    border-radius: 6px;
+}
+#mobilier  {
+    position: fixed;
+    top: 4rem;
+}
+
+#biciclete {
+    position: fixed;
+    top: 6rem;
+}
+
+#boardgames {
+    position: fixed;
+    top: 8rem;
+}
+
+
+.selector button {
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    margin: 2rem;
+    border: none;
+    padding: 0.3rem 2rem;
+    border-radius: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #004444;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#output {
+    margin: auto;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding: 1rem;
+    background-color: #f0f1f1;
+}
+
+/*  ========================= Card =========================== */
+.card {
+    margin: auto;
+    text-align: center;
+    padding: 0.6rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    width: 18rem;
+    height: 25rem;
+    border-radius: 6px;
+    border-bottom: 0.3rem solid #f0c929;
+    border-left: 0.2rem solid #f0c929;
+    border-right: 0.2rem solid #f0c929;
+    background-color: #fbe6c2;
+}
+.card img {
+   width: 16rem;
+   height: 16rem;
+}
+
+.addToCart {
+    margin-top: 0.6rem;
+    padding: 0.3rem 2rem;
+    border: none;
+    background-color: rgb(202, 160, 83);
+    color: rgb(230, 248, 248);
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+/*  ========================= Details=========================== */
+
+#output-details {
+    /* display: flex; */
+}
+.details {
+    padding:1rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.description {
+    width: 33%;
+    margin: auto;
+}
+
+.beneficii {
+    
+    margin: auto;
+}

@@ -1,0 +1,419 @@
+{
+  "allproducts": [
+    {
+      "id": "12321",
+      "picture": "Images/Boardgames/catanjunior.webp",
+      "name": "Catan Junior",
+      "price": 41,
+      "curency": "RON",
+      "stoc": "In stoc" ,
+      "descriere": "Ca si in popularul joc Colonistii din Catan, in Jocul de carti - Colonistii din Catan este vorba despre folosirea resurselor in mod optim pentru a acumula puncte castigatoare. Se construiesc drumuri. Apar soldatii! Se intemeiaza asezari care apoi sunt dezvoltate in orase. Comertul infloreste, iar in orase se construiesc cladiri monumentale! Fiti atenti: drumurile si soldatii se pot pierde in favoarea altui jucator. Astfel punctele voastre castigatoare nu sunt totdeauna protejate. Arata ca ai calitatile necesare pentru a fi un colonist de succes!"    
+    },
+    {
+      "id": "3445465655343",
+      "picture": "Images/Boardgames/illusion.jpg",
+      "name": "Illusion",
+      "price": 31,
+      "curency": "RON",
+      "stoc": "In stoc",
+      "descriere": "Aproximati bine din vedere? Cat de multa culoare puteti vedea cu adevarat? Despre asta este vorba in jocul Illusion. Regulile sunt atat de simple incat jocul poate incepe imediat. Nu conteaza varsta sau inaltimea, oricine poate juca! Oare cine aproximeaza cel mai bine si nu va fi pacalit?"      
+    },
+    {
+      "id": "5959",
+      "picture": "Images/Boardgames/gooddinosaur.webp",
+      "name": "The Good Dinosaur",
+      "price": 21,
+      "curency": "RON",
+      "stoc": "In stoc"      
+    },
+    {
+      "id": "34343",
+      "picture": "Images/Boardgames/azul.jpg",
+      "name": "Illusion",
+      "price": 31,
+      "curency": "RON",
+      "stoc": "In stoc",
+      "descriere": "Introduse de mauri, “azulejos” (placile ceramice originale albe si albastre) au fost adoptate cu entuziasm de portughezi, dupa ce regele Manuel I  a vizitat palatul Alhambra aflat in sudul Spaniei, declarand-se fermecat de frumusetea decoratiunilor maure. Regele, marcat de superbele interioare ale Alhambrei, a comandat imediat ca palatul sau din Portugalia sa fie decorat cu placi de acelasi fel."
+    },
+    {
+      "id": "59656559",
+      "picture": "Images/Boardgames/imhotep.webp",
+      "name": "Imhotep",
+      "price": 50,
+      "curency": "RON",
+      "stoc": "In stoc",
+      "descriere": "Competitia maestrilor constructori continua! Imhotep – Duelul va permite sa intrati in rolurile lui Nefertiti si Akhenaton, unul dintre cele mai populare cupluri din Egipt. Plasati-va strategic pionii pentru a descarca cele mai valoroase marfuri din cele sase barci. Treptat, pentu a castiga duelul, veti construi cele patru monumente pentru a obtine cat mai multe puncte posibil!"      
+    },
+    {
+      "id": "592229",
+      "picture": "Images/Boardgames/themind.webp",
+      "name": "The Mind",
+      "price": 62,
+      "curency": "RON",
+      "stoc": "In stoc",
+      "descriere": "Jocul “The Mind” reprezinta una dintre cele mai ingenioase experiente de echipa. Dupa ce ati rezolvat impreuna ultimul nivel, va veti simti ca in al noualea cer. Nu aveti voie sa discutati sau sa schimbati informatii intre voi. Cu toate acestea, sistemul functioneaza - doar cu ajutorul mintii..."   
+    },
+    {
+      "id": "592332",
+      "picture": "Images/Boardgames/lostcities.webp",
+      "name": "Lost Cities",
+      "price": 44,
+      "curency": "RON",
+      "stoc": "In stoc",
+      "descriere": "Descoperiti trasee si aventurati-va in expeditii care va vor purta catre cele mai indepartate si misterioase colturi ale lumii: un templu abandonat aflat in munti, un monument ruinat format din monoliti de piatra asezati in forma de cerc, un oras scufundat, o asezare din epoca de piatra si un oras fortificat in interiorul unui munte.      Scopul vostru este sa planificati traseele cu ajutorul cartilor de joc, astfel incat sa adunati cele mai multe puncte de renume. Cei care sunt mai indrazneti vor putea mari miza propriilor expeditii cu ajutorul cartilor de investitii. Dar, atentie! Nu sunteti singurii care au pus la cale o expeditie. Ce trasee veti alege si cat de mult vor valora acestea pentru dumneavoastra, in aur? Planificati-va bine fiecare pas si utilizati-va resursele cu intelepciune. Doar jucatorul care a strans cele mai multe puncte de renume la sfarsitul expeditiilor, va fi declarat castigator."      
+    },
+    {
+      "id": "2221234343",
+      "picture": "Images/Boardgames/tumult.jpg",
+      "name": "Tumult Royal",
+      "price": 81,
+      "curency": "RON",
+      "stoc": "In stoc" ,
+      "descriere":"In Tumult Royal intrati in rolul nobililor. Runda dupa runda colectati taxe de la supusii vostri pentru a va construi statui de-a lungul si de-a latul tarii, asigurandu-va astfel rangul. Daca lasati destule bunuri pentru oameni dupa taxare, totul va fi bine si puteti continua sa construiti monumente pentru propria vanitate. Daca luati insa prea multe, cel mai lacom va fi pedepsit. Cine va construi cele mai multe statui si va castiga jocul?"     
+    },
+    {
+      "id": "125512",
+      "picture": "./Images/Biciclete/bicicleta1.webp",      
+      "name": "Bicicleta fara pedale - Milly",
+      "price": 210,
+      "curency": "RON",
+      "stoc": "In stoc",
+      "descriere": "Rapid si usor de manevrat - bicicleta de echilibru FLY PLUS le are pe toate! Culorile pastelate si cadrul usor vor incanta atat copii iubitori de plimbari, cat si parintii lor. FLY PLUS este o bicicleta perfectionata pana la ultimul detaliu - are un design retro si roti usoare realizate din spuma rezistenta la perforare. Scaunul ergonomic cu umplere moale inseamna ca copilul dumneavoastra poate fi confortabil chiar si in timpul plimbarilor nebunesti! Scaunul are multe optiuni de reglare - puteti adapta inaltimea atat copiilor mici, cat si copiilor mai mari si mai inalti. Tricicla FLY PLUS are o intoarcere limitata a ghidonului, care va va proteja copilul de viraje necontrolate si caderi in timpul jocului."
+    },
+
+    {
+      "id": "1211122",
+      "picture": "./Images/Biciclete/bicicleta2.webp",      
+      "name": "Bicicleta fara pedale - Boby",
+      "price": 260,
+      "curency": "RON",
+      "stoc": "In stoc",
+      "descriere": "Doriti ca fiecare dintre plimbarile dvs. sa fie de neuitat? Bicicleta cu schimbator de viteze 2WAY NEXT ii va oferi copilului dvs. multa bucurie si, in acelasi timp, ii va permite sa dezvolte intr-un mod natural simtul echilibrului. 2WAY NEXT sustine dezvoltarea functiilor motorii si a simtului spatiului.Se distinge printr-un design modern - linia sa sportiva atrage imediat privirea. De asemenea, bicicleta este usoara si usor de deplasat. Cadrul montat destul de jos faciliteaza urcarea pe bicicleta a copiilor mai mici, iar saua si ghidonul cu posibilitate de reglare va permit sa ajustati bicicleta la copiii mai mari."
+    },
+    {
+      "id": "122465622",
+      "picture": "./Images/Biciclete/bicicleta3.webp",      
+      "name": "Bicicleta fara pedale - YellowRush",
+      "price": 320,
+      "curency": "RON",
+      "stoc": "In stoc",
+      "descriere":"Balance bike este cea mai buna alternativa pentru bicicletele cu roti laterale, ceea ce face calatoritul pe o bicicleta clasica placuta si usor de invatat;"
+    },
+    {
+      "id": "12223341122",
+      "picture": "./Images/Biciclete/bicicleta4.webp",      
+      "name": "Bicicleta fara pedale - Runner",
+      "price": 190,
+      "curency": "RON",
+      "stoc": "In stoc",
+      "descriere":"Bicicleta fara pedale este destinata celor mai mici copii care abia isi incep aventura pe bicicleta. Designul sau simplu permite copilului sa se concentreze asupra unei singure activitati.Bicicleta fara pedale este o alternativa la bicicletele clasice cu pedale si permite plimbarea copilului de la o varsta mica deoarece inaintarea si echilibrul se face cu piciorusele lui."
+    },
+    {
+      "id": "22158522",
+      "picture": "./Images/Biciclete/bicicleta5.webp",      
+      "name": "Bicicleta fara pedale - Coco Mint",
+      "price": 290,
+      "curency": "RON",
+      "stoc": "In stoc",
+      "descriere":"Coco Mint reprezinta o noutate printre bicicletele fara pedale, acestea au un design modern, sunt reglabile pe inaltime, disponibile in culori atragatoare."
+    },
+    {
+      "id": "595952",
+      "picture": "./Images/Biciclete/bicicleta6.webp",      
+      "name": "Bicicleta fara pedale - Blue Moon",
+      "price": 190,
+      "curency": "RON",
+      "stoc": "In stoc",
+      "descriere":"Mersul pe bicicleta de la o varsta frageda permite dezvoltarea rapida si armonioasa a celor mici. Iar bicicleta fara pedale este recomandata de catre specialisti ca un pas introductiv in lumea vasta a pedalatului. Copiii invata sa isi mentina echilibrul si le va fi mult mai usor sa treaca ulterior la bicicleta traditionala, cu pedale.Aveti garantia noastra , dupa numeroase studii si analize ca , bicicleta PREMIUM fara pedale oferita de brendul nostru KOTA BABY , va fi, fara indoiala, pe placul copilului dumneavoastra !"
+    },
+    {
+      "id": "59235952",
+      "picture": "./Images/Biciclete/bicicleta7.webp",      
+      "name": "Bicicleta cu pedale - Green Bloom",
+      "price": 490,
+      "curency": "RON",
+      "stoc": "In stoc",
+      "descriere":"Se distinge printr-un design modern - linia sa sportiva atrage imediat privirea. De asemenea, bicicleta este usoara si usor de deplasat. Cadrul montat destul de jos faciliteaza urcarea pe bicicleta a copiilor mai mici, iar saua si ghidonul cu posibilitate de reglare va permit sa ajustati bicicleta la copiii mai mari."
+    },
+    {
+      "id": "59232",
+      "picture": "./Images/Biciclete/bicicleta8.webp",      
+      "name": "Bicicleta fara pedale - SporTrike",
+      "price": 490,
+      "curency": "RON",
+      "stoc": "In stoc",
+      "descriere": "Balance bike este cea mai buna alternativa pentru bicicletele cu roti laterale, ceea ce face calatoritul pe o bicicleta clasica placuta si usor de invatat;"
+    },
+    {
+      "id": "3366343",
+      "picture": "Images/Mobilier/patalbastru.jpg",
+      "name": "Pat junior U-grow Explore the universe",
+      "price": 310,
+      "curency": "RON",
+      "stoc": "In stoc"   ,
+      "descriere":"Protectiile laterale ofera siguranta copilului pe timpul somnului si elimina riscul de a cadea; Recomandat pentru copii de la 3 ani pana la 8 ani;Dimensiune: 143x92.5x60 cm;Dimensiune interioara: 140x70 cm; "   
+    },
+    {
+      "id": "39699",
+      "picture": "Images/Mobilier/fotoliuminnie.webp",
+      "name": "Fotoliu din plus Minnie Mouse cu buline",
+      "price": 310,
+      "curency": "RON",
+      "stoc": "In stoc",
+      "descriere":"Transforma camera copilului tau intr-un loc de poveste cu ajutorul unui prieten pufos. Fotoliul poate fi folosit ca piesa de mobilier dar si ca jucarie, cei mici il pot calari toata ziua.Acesta este umplut cu vatelina, isi pastreaza forma si este foarte rezistent. Poate fi un cadou minunat pentru orice fetita fan Minnie Mouse"      
+    },
+    {
+      "id": "390299",
+      "picture": "Images/Mobilier/fotoliumikey.webp",
+      "name": "Fotoliu bebe Mickey Mouse ",
+      "price": 80,
+      "curency": "RON",
+      "stoc": "In stoc" ,
+      "descriere":"Fotoliu bebe Mickey Mouse / este un fotoliu potrivit pentru bebelusi, avand un design special gandit pentru sustinerea confortabila a coloanei, bebe putand fi pus chiar si inainte de 6 luni in aceste fotolii, daca are tendinta de a se ridica, sau reuseste sa mentina pozitia de sezut."     
+    },
+    {
+      "id": "39963029",
+      "picture": "Images/Mobilier/fotoliuplus.webp",
+      "name": "Fotoliu plus ursulet Kota Baby",
+      "price": 110,
+      "curency": "RON",
+      "stoc": "In stoc"  ,
+      "descriere":"Fotoliul de plus, cadoul ideal! Culoare: Roz, Maro;Plusul este foarte fin la atingere ,comfortabil si de foarte buna calitate;Sunt conceputi din materiale antialergice;Foarte rezistenti in timp;"    
+    },
+    {
+      "id": "5650",
+      "picture": "Images/Mobilier/parcar.webp",
+      "name": "Pat pentru copii, Cars, 160 x 80 cm",
+      "price": 510,
+      "curency": "RON",
+      "stoc": "In stoc",
+      "descriere":"Dimensiunea patului este de 160 x 80 cm;      Dimensiunea saltelei este de 160 x 80 cm;      Dimensiune exterioara este de 165 x 85 cm;      Modelul decorativ este realizat in tehnologia UV si garanteaza durabilitate excelenta, culori vii si rezistenta la abraziune.      Instalarea este foarte simpla si se face cu ajutorul unor suruburi si a unei chei. Setul vine cu un manual de utilizare. *Lenjeria nu este inclusa. setul nu include saltea"      
+    },
+    {
+      "id": "60",
+      "picture": "Images/Mobilier/patbatman.webp",
+      "name": "Pat pentru copii, 'BATMAN LED' dimensiune 160x80",
+      "price": 610,
+      "curency": "RON",
+      "stoc": "In stoc" ,
+      "descriere":"* Constructie robusta de pana la 110 kg! Muchiile terminate cu o janta din cauciuc moale. Inaltimea corecta a partilor laterale ale patului previne caderea.Forme ovale sigure.Cadru din lamele elastice in sistemul LEXDesignul patului este realizat din bord de mobilier de inalta calitate, ceea ce il face stabil si durabil.Dimensiunile patului: lungime 171 cm latime 84 cm  Grafica este securizata cu un laminat, ceea ce il face durabil si rezistent la abraziune.De iluminat cu LED Pat de auto-asamblare (instructiuni atasate). Spuma saltea dimensiunile : 160cm x 80cm x 7cm. Continutul setului: saltea cu spuma - grosime 7 cm, cadru, pat, de iluminat cu LED"     
+    },
+    {
+      "id": "65650",
+      "picture": "Images/Mobilier/patroz.webp",
+      "name": "Pat junior U-Grow Believe in your dreams",
+      "price": 410,
+      "curency": "RON",
+      "stoc": "In stoc",
+      "descriere":"Protectiile laterale ofera siguranta copilului pe timpul somnului si elimina riscul de a cadea;Recomandat pentru copii de la 3 ani pana la 8 ani;Dimensiune: 143x92.5x60 cm;"      
+    },
+    {
+      "id": "44650",
+      "picture": "Images/Mobilier/patdublu.webp",
+      "name": "Pat dublu extensibil, EMMA, 85 x 164 cm",
+      "price": 890,
+      "curency": "RON",
+      "stoc": "In stoc",
+      "descriere":"Pat dublu etensibil EMMA 80x160 cm, alb. Lungime: 164 cm. Lățime: 85 cm. Inălțime: 70 cm. Zona de dormit: pat superior 80x160 cm, pat inferior 80x145 cm. Setul include două saltele din spumă moale de 7 cm grosime, cu un capac detașabil.Dispunand de un pat inferior care se trage in exterior, dotat cu 4 rotite, piesa de mobilier poate fi transformata cu usurinta intr-o canapea, in timpul zilei, si un pat confortabil noaptea. Patul nostru se caracterizează prin finisaje de inaltă calitate și atenție. In sistemul FLEX, arcul cutiei este flexibil. Marginile rotunjite care nu reprezintă o amenințare pentru copil in timp ce dorm și se joacă in pat. Două bariere de siguranță de 80 cm - GRATUIT! Patul poate suporta sarcini de pană la 110 kg! Produsul este format din materii prime certificate. Imprimare cu cerneluri ecologice, rezistente la abraziune, laminate. Manerele din lemn in formă de inimă. Costurile de livrare nu includ livrarea mobilierului către apartament sau montajul acestuia. Setul include instrucțiuni clare de asamblare. "      
+    }
+  ],
+  "boardgames": [
+    {
+      "id": "12321",
+      "picture": "Images/Boardgames/catanjunior.webp",
+      "name": "Catan Junior",
+      "price": 41,
+      "curency": "RON",
+      "stoc": "In stoc"      
+    },
+    {
+      "id": "3445465655343",
+      "picture": "Images/Boardgames/illusion.jpg",
+      "name": "Illusion",
+      "price": 31,
+      "curency": "RON",
+      "stoc": "In stoc"      
+    },
+    {
+      "id": "5959",
+      "picture": "Images/Boardgames/gooddinosaur.webp",
+      "name": "The Good Dinosaur",
+      "price": 21,
+      "curency": "RON",
+      "stoc": "In stoc"      
+    },
+    {
+      "id": "34343",
+      "picture": "Images/Boardgames/azul.jpg",
+      "name": "Illusion",
+      "price": 31,
+      "curency": "RON",
+      "stoc": "In stoc"      
+    },
+    {
+      "id": "59656559",
+      "picture": "Images/Boardgames/imhotep.webp",
+      "name": "Imhotep",
+      "price": 50,
+      "curency": "RON",
+      "stoc": "In stoc"      
+    },
+    {
+      "id": "592229",
+      "picture": "Images/Boardgames/themind.webp",
+      "name": "The Mind",
+      "price": 62,
+      "curency": "RON",
+      "stoc": "In stoc"      
+    },
+    {
+      "id": "592332",
+      "picture": "Images/Boardgames/lostcities.webp",
+      "name": "Lost Cities",
+      "price": 44,
+      "curency": "RON",
+      "stoc": "In stoc"      
+    },
+    {
+      "id": "2221234343",
+      "picture": "Images/Boardgames/tumult.jpg",
+      "name": "Tumult Royal",
+      "price": 81,
+      "curency": "RON",
+      "stoc": "In stoc"      
+    }
+  ],
+  "biciclete": [
+    {
+      "id": "125512",
+      "picture": "./Images/Biciclete/bicicleta1.webp",      
+      "name": "Bicicleta fara pedale - Milly",
+      "price": 210,
+      "curency": "RON",
+      "stoc": "In stoc"
+    },
+
+    {
+      "id": "1211122",
+      "picture": "./Images/Biciclete/bicicleta2.webp",      
+      "name": "Bicicleta fara pedale - Boby",
+      "price": 260,
+      "curency": "RON",
+      "stoc": "In stoc"
+    },
+    {
+      "id": "122465622",
+      "picture": "./Images/Biciclete/bicicleta3.webp",      
+      "name": "Bicicleta fara pedale - YellowRush",
+      "price": 320,
+      "curency": "RON",
+      "stoc": "In stoc"
+    },
+    {
+      "id": "12223341122",
+      "picture": "./Images/Biciclete/bicicleta4.webp",      
+      "name": "Bicicleta fara pedale - Runner",
+      "price": 190,
+      "curency": "RON",
+      "stoc": "In stoc"
+    },
+    {
+      "id": "22158522",
+      "picture": "./Images/Biciclete/bicicleta5.webp",      
+      "name": "Bicicleta fara pedale - Coco Mint",
+      "price": 290,
+      "curency": "RON",
+      "stoc": "In stoc"
+    },
+    {
+      "id": "595952",
+      "picture": "./Images/Biciclete/bicicleta6.webp",      
+      "name": "Bicicleta fara pedale - Blue Moon",
+      "price": 190,
+      "curency": "RON",
+      "stoc": "In stoc"
+    },
+    {
+      "id": "59235952",
+      "picture": "./Images/Biciclete/bicicleta7.webp",      
+      "name": "Bicicleta cu pedale - Green Bloom",
+      "price": 490,
+      "curency": "RON",
+      "stoc": "In stoc"
+    },
+    {
+      "id": "59232",
+      "picture": "./Images/Biciclete/bicicleta8.webp",      
+      "name": "Bicicleta fara pedale - SporTrike",
+      "price": 490,
+      "curency": "RON",
+      "stoc": "In stoc"
+    }
+  ], 
+  "mobilier": [    
+    {
+      "id": "3366343",
+      "picture": "Images/Mobilier/patalbastru.jpg",
+      "name": "Pat junior U-grow Explore the universe",
+      "price": 310,
+      "curency": "RON",
+      "stoc": "In stoc"      
+    },
+    {
+      "id": "39699",
+      "picture": "Images/Mobilier/fotoliuminnie.webp",
+      "name": "Fotoliu din plus Minnie Mouse cu buline",
+      "price": 310,
+      "curency": "RON",
+      "stoc": "In stoc"      
+    },
+    {
+      "id": "390299",
+      "picture": "Images/Mobilier/fotoliumikey.webp",
+      "name": "Fotoliu bebe Mickey Mouse ",
+      "price": 80,
+      "curency": "RON",
+      "stoc": "In stoc"      
+    },
+    {
+      "id": "39963029",
+      "picture": "Images/Mobilier/fotoliuplus.webp",
+      "name": "Fotoliu plus ursulet Kota Baby",
+      "price": 110,
+      "curency": "RON",
+      "stoc": "In stoc"      
+    },
+    {
+      "id": "5650",
+      "picture": "Images/Mobilier/parcar.webp",
+      "name": "Pat pentru copii, Cars, 160 x 80 cm",
+      "price": 510,
+      "curency": "RON",
+      "stoc": "In stoc"      
+    },
+    {
+      "id": "60",
+      "picture": "Images/Mobilier/patbatman.webp",
+      "name": "Pat pentru copii, 'BATMAN LED' dimensiune 160x80",
+      "price": 610,
+      "curency": "RON",
+      "stoc": "In stoc"      
+    },
+    {
+      "id": "65650",
+      "picture": "Images/Mobilier/patroz.webp",
+      "name": "Pat junior U-Grow Believe in your dreams",
+      "price": 410,
+      "curency": "RON",
+      "stoc": "In stoc"      
+    },
+    {
+      "id": "44650",
+      "picture": "Images/Mobilier/patdublu.webp",
+      "name": "Pat dublu extensibil, EMMA, 85 x 164 cm",
+      "price": 890,
+      "curency": "RON",
+      "stoc": "In stoc"      
+    }
+  ]
+}
