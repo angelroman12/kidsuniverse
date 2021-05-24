@@ -16,6 +16,25 @@
               <!-- <li><a href=""></a></li> -->
           </ul>
       </nav>
-    
+      <div id="cartContainer">
+        <table id="table-body">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Title</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="cart-body"></tbody>     
+                  
+        </table>
+        <span id="total" value=""><strong>Total: </strong></span> 
+    </div>
+
+    <script src="./src/cart.js" type="module"></script>
+    <script src="./src/localstorage.js" type="module"></script>
 </body>
 </html>

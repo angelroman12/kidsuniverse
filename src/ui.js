@@ -1,7 +1,12 @@
+import { addProductsInLocalStorage, updateQuantityInLocalStorage, getElementFromLocalStorage, removeElementFromLocalStorage } from './localStorage.js';
 class UI {
     constructor(){
         this.productsDiv = document.getElementById('output');
         this.detailsDiv = document.getElementById('output-details');
+        this.recenziiOutput = document.getElementById('recenzii-output');
+        this.fullName = document.getElementById('fullName');
+        this.email = document.getElementById('email')
+        this.cartBody = document.getElementById('cart-body')
     }
 
     productsInIndex(products){
@@ -13,11 +18,24 @@ class UI {
             <h3> ${product.name}</h3>
             <a href="details.html?id=${product.id}" > <img src=${product.picture}>   </a>         
             <h4> ${product.price} RON</h4>
-            <button class="addToCart">Aaugati in cos</button>
+            <button class="addToCart" id="addProductToCart" id="${product.id}">Aaugati in cos</button>
             </div>
             `;
             this.productsDiv.innerHTML += output;
+            
         });
+    }
+    productsAdmin(products) {
+        let output = '';
+        products.forEach((product) => {
+            output = `
+            <div class="adminProduct">
+            <img src=${product.picture}>
+            <h4> ${product.name}</h4>
+            <h4> ${product.price} </h4>
+            <button class="delete" id=${product.id} > Remove </button> </td>
+            </div>`; this.productsDiv.innerHTML += output;
+        })
     }
 
     showProductDetails(products) {
@@ -30,7 +48,8 @@ class UI {
                 <div class="description">
                     <h3> ${product.name}</h3>
                     <p> ${product.descriere}</p>
-                     <button class="addToCart">Aaugati in cos</button>
+                     <button class="addToCart" id="addProductToCart" id="${product.id}">Aaugati in cos</button>
+                     <input type="Number" value="1" id="quantity">	
                 </div>
                 <div class="beneficii">
                     <h4>Transport gratuit la easybox</h4>
@@ -40,10 +59,70 @@ class UI {
                 </div>
             </div>
             `;this.detailsDiv.innerHTML = output;
+            addProductToCart.addEventListener('click', () => {
+                let count = parseInt(quantity.value);
+                if (isNaN(count)) {
+                    count = 1;
+                }
+                addProductsInLocalStorage(product, count);
+                alert("Produsul a fost adaugat in cos")
+    
+              });	
+                  
         })
     }
 
-    
+    showComments(comments) {
+        let output = '';
+        comments.forEach((comment) => {
+            output = `
+            <h4> Nume: ${comment.fullName}</h4>
+            <h4> Nume: ${comment.email}</h4>
+            `; this.recenziiOutput.innerHTML += output;
+        })
+    }
+    showProductsCart(storageItems) {
+        let output = '';
+        storageItems.forEach((product) => {
+            output = `
+            <table id="table-cart">
+                <tbody> 
+                    <tr class="cartRows">
+                        <td><img src="${product.product.picture}" class="admin-card-img"/></td>
+                        <td><button onclick="window.location.href='details.html?id=${product.product.id}'" class="title">${product.product.name}</button></td>                       
+                        <td>${product.product.price} RON</td>
+                        <td><input value=${product.product.count} id="quantity"  type="number" min="1" max="10"/></td>
+                        <td id=“subtotal">${product.product.price*product.count}</td>
+                        <td><button id=${product.product.id} type="button" class="card-button delete"> <i class="far fa-trash-alt" id=${product.product.id}></i></button></td>
+                    </tr>
+                </tbody>   
+            </table> 
+            `     
+            this.cartBody.innerHTML += output;
+        });
+        let inputFields = document.querySelectorAll("input");
+        inputFields.forEach( (inputElement) => {
+            let row = inputElement.parentElement.parentElement;
+            let removeButton = row.lastElementChild.firstElementChild;
+            let productId = removeButton.id;
+            inputElement.addEventListener('change', (e) => {
+                let count = parseInt(e.target.value);
+                if(!isNaN(count) && count > 0) {
+                    updateQuantityInLocalStorage(productId, count);
+                    return window.location.reload();
+                } else {
+                    let storageElement = getElementFromLocalStorage(productId);
+                    e.target.value = storageElement.count;
+                }
+            });  
+            
+            removeButton.addEventListener('click', (e) => {
+                removeElementFromLocalStorage(e.target.id);
+                row.remove();
+                    return window.location.reload();
+                });
+            });  
+    }
 }
 
 export const ui = new UI();
