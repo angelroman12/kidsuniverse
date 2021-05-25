@@ -25,9 +25,9 @@ document.getElementById('boardgames').addEventListener('click', () => {
       .then((data) => ui.productsInIndex(data));
 })
 
-
-addEventListener("DOMContentLoaded", () =>{
+const allProducts = document.getElementById('allProducts').addEventListener("click", () =>{
   output.innerHTML = "";
-  http.get("http://localhost:3000/biciclete")
+  http.get("http://localhost:3000/allProducts")
       .then((data) => ui.productsInIndex(data));
 })
+

@@ -486,11 +486,9 @@
       "stoc": "In stoc"
     }
   ],
-  "Comentarii": [
+  "comentarii": [
     {
-      "fullName": "vasile",
-      "email": "asd@sda",
-      "message": "asda"
+      
     }
   ]
 }

@@ -14,23 +14,23 @@
           <ul>
               <li><a href="cart.html"> Cart</a></li>
               <li><a href="admin.html"> Admin</a></li>
-              <!-- <li><a href="recenzii.html">Recenzii</a> </li> -->
+              <li><a href="recenzii.html">Recenzii</a> </li>
           </ul>
       </nav>
-    <div id="output-details">
-        
+    
+    <div id="recenzii">
+        <form>
+            <input type="text" id="fullName" placeholder="Full Name">
+            <input type="text" id="productName" placeholder="Product Name">
+            <input type="email" name="" id="email" placeholder="Email">
+            <textarea name="message" id="message" cols="100" rows="3" placeholder="Comment"></textarea>
+            <button type="submit" id="submitComment">Submit</button>
+        </form>
     </div>
-    <div class="confirm" id="confirm">
-        <h2>Produsul a fost adaugat in cos</h2>
-        <button type="submit" id="ok"> OK </button>
-    </div>
+    <div id="recenzii-output">
 
-    <footer>
-        <h5>Frontend Developer Angel Roman  </h5>
-        <a href="https://github.com/angelroman12" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/angel-roman13/" target="_blank"> <i class="fab fa-linkedin"></i></a>
-      </footer>
-    <script src="./src/details.js" type="module"></script>   
-    <script src="./src/cart.js" type="module"></script>
+    </div>
+    <!-- <script src="./src/index.js" type="module"></script> -->
+    <script src="./src/recenzii.js" type="module"></script>
 </body>
 </html>

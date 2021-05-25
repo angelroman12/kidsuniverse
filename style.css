@@ -41,6 +41,19 @@ main {
     display: flex;
 }
 
+.svg {
+    margin:auto
+}
+.searchBar {
+    position: fixed;
+    top: 4rem;
+}
+#searchButton {
+    position: fixed;
+    left: 25rem;
+    top: 4.2rem;
+}
+
 .selector {
     width: 15%;
     background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
@@ -51,19 +64,24 @@ main {
     min-height: 100vh;
     border-radius: 6px;
 }
-#mobilier  {
+#allProducts {
     position: fixed;
     top: 4rem;
 }
 
-#biciclete {
+#mobilier  {
     position: fixed;
     top: 6rem;
 }
 
-#boardgames {
+#biciclete {
     position: fixed;
     top: 8rem;
+}
+
+#boardgames {
+    position: fixed;
+    top: 10rem;
 }
 
 
@@ -90,10 +108,16 @@ main {
     align-items: center;
     /* border: 1px solid black; */
     padding: 1rem;
-    background-color: #f0f1f1;
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
     min-height: 100vh;
 }
-
+.welcome {
+    position: absolute;
+    top: 26%;
+    left: 55%;
+    /* transform: translate(-50%); */
+    z-index: 1;
+}
 /*  ========================= Card =========================== */
 .card {
     margin: auto;
@@ -101,8 +125,8 @@ main {
     padding: 0.6rem;
     margin-top: 0.3rem;
     margin-bottom: 0.3rem;
-    width: 18rem;
-    height: 25rem;
+    width: 16rem;
+    height: auto;
     border-radius: 6px;
     border-bottom: 0.3rem solid #f0c929;
     border-left: 0.2rem solid #f0c929;
@@ -110,20 +134,20 @@ main {
     background-color: #fbe6c2;
 }
 .card img {
-   width: 16rem;
-   height: 16rem;
+   width: 12rem;
+   height: 12rem;
 }
 
 .addToCart {
     margin-top: 0.6rem;
     padding: 0.3rem 2rem;
     border: none;
-    background-color: rgb(202, 160, 83);
+    background-color: #f48b29;;
     color: rgb(230, 248, 248);
     font-size: 1rem;
     border-radius: 6px;
     cursor: pointer;
-    
+    font-weight: bold;
     
 }
 /*  ========================= Form =========================== */
@@ -134,30 +158,70 @@ form {
     padding-top: 5rem;
 }
 
-#fullName, #email, #message, #submit{
+#fullName, #email, #message, #submit, #productName{
     width: 20rem;
     margin: auto;
+    margin-top: 0.6rem;
+    padding: 0.4rem;
+    background-color: azure;
+    border: none;
 }
-#fullName, #email {
+#fullName, #email, #productName {
     height: 2rem;
 }
+#message {
+    resize: none;
+}
 /*  ========================= Details=========================== */
-
-.details {
-    padding:1rem;
+#output-details {
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+    min-height: 90vh;
     display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+.details {
+    padding: 0.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.details img {
+    width: 20rem;
+    margin: auto;
+    border-radius: 10px;
 }
 
 .description {
     width: 33%;
     margin: auto;
 }
-
+.description h3, p, h4, button {
+    margin: 0.8rem;
+}
 .beneficii {
-    
-    margin: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-items: flex-end;
+   margin: auto;
+}
+.beneficii h4 {
+    margin: 2rem 0rem;
+}
+
+#quantity {
+    width: 3rem;
+    height: 1.7rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #f48b29;
+    padding-left: 1rem;
+    color: wheat;
+    font-weight: bold;
+    font-size: 1rem;
 }
 /*  =========================Cart=========================== */
 #cartContainer {
@@ -177,20 +241,23 @@ form {
     text-align: center;
 }
 #table-body thead tr{
-    background-color: #5f5f5f;
+    background-color: #f48b29;
     padding: 2rem 0rem;
     height: 2rem;
-    color: aliceblue;
+    color: #fbe6c2;
 }
 #cart-body td {
-    border-bottom: 1px solid #17706e;
+    border-bottom: 1px solid #ac0d0d;
+    border-left: 1px solid #ac0d0d;
+    border-right: 1px solid #ac0d0d;
     background-color: #eee6e6;
+    
 }
 #cart-body img {
     width: 6rem;
 }
 #cart-body .title {
-    box-shadow: 1px 1px 5px 2px #b6eb7a;
+    box-shadow: 0px 0px 3px 1px #f48b29;
     padding: 0.6rem 2rem;
     cursor: pointer;
     width: 15rem;
@@ -201,8 +268,8 @@ form {
     border-radius: 6px;
 }
 #cart-body .delete:hover, .title:hover {
-    background-color: #fb7813;
-    color: #f7f7ee;
+    background-color: #fbe6c2;
+    color: #000000;
 }
 #cart-body .delete {
     /* box-shadow: 1px 1px 5px 2px #b6eb7a; */
@@ -216,7 +283,42 @@ form {
     border-radius: 50%;
     color: red;
 }
-
+.confirm {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0c929;
+    padding: 1rem;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    display: none;
+    color: #ac0d0d;
+    box-shadow: 0px 0px 10px 1px rgb(95, 94, 94);
+}
+#ok {
+    background-color: #f48b29;
+    padding: 0.4rem 2rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+#finalizare {
+    margin-top: 0.6rem;
+    margin-right: 11rem;
+    padding: 0.3rem 1rem;
+    background-color: #f0c929;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
 /*  ========================  Admin  ========================= */
 
 #bookInput {
@@ -272,7 +374,7 @@ form {
     background-color: azure;
 }
 
-#submit {
+#submit, #submitComment {
     padding: 0.3rem;
     border-radius: 6px;
     border: none;
@@ -283,4 +385,23 @@ form {
     font-size: 1rem;
     font-weight: bold;
     height: 2rem;
+}
+
+/* ===================================  Footer  =========================== */
+
+footer {
+    height: 3rem;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    margin-left: 0.8rem;
 }
