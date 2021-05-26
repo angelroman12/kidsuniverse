@@ -44,14 +44,11 @@ main {
 .svg {
     margin:auto
 }
-.searchBar {
-    position: fixed;
-    top: 4rem;
+.slector-mobile {
+    display: none;
 }
-#searchButton {
-    position: fixed;
-    left: 25rem;
-    top: 4.2rem;
+.svg-mobile {
+    display: none;
 }
 
 .selector {

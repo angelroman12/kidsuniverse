@@ -1,0 +1,98 @@
+@media (max-width: 500px){
+    body {
+        width: 500px;
+    }
+
+    nav {
+        width: 100%;
+        top: 0rem;
+        position: sticky;
+        padding: 0rem 1rem;
+    }
+
+    .svg {
+       display: none;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    main h2 {
+        display: none;
+    }
+    .selector {
+       display: none;
+    }
+ 
+   footer {
+       position: sticky;
+       bottom: 0;
+   }
+   .slector-mobile {
+       width: 100%;
+       height: 7%;
+       background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+       display: flex;
+       flex-direction: row;
+       align-self: start;
+       position: fixed;
+       z-index: 1;
+   }
+    #allProducts {
+        position: fixed;
+        top: 4rem;
+
+    }
+
+    #mobilier  {
+        position: fixed;
+        top: 4rem;
+        left: 9.5rem;
+    }
+
+    #biciclete {
+        position: fixed;
+        top: 4rem;
+        left: 15rem;
+    }
+
+    #boardgames {
+        position: fixed;
+        top: 4rem;
+        left: 21rem;
+    }
+    #output {
+      padding-top: 3rem;
+      width: 500px;
+      padding-bottom: 3rem;
+      
+    }
+    
+.slector-mobile button {
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    border: none;
+    padding: 0.3rem 0.8rem;
+    border-radius: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #004444;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+    .svg-mobile {
+        display: block;
+
+    }
+    /* =================================== Card ======================= */
+
+    .card {
+        width: 12rem;
+        height: auto;
+    }
+    .card img {
+        width: 8rem;
+    }
+}
