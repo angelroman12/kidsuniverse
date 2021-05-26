@@ -100,7 +100,7 @@ class UI {
                         <td><img src="${product.product.picture}" class="admin-card-img"/></td>
                         <td><button onclick="window.location.href='details.html?id=${product.product.id}'" class="title">${product.product.name}</button></td>                       
                         <td>${product.product.price} RON</td>
-                        <td><input value=${product.count} id="quantity"  type="number" min="1" max="10"/></td>
+                        <td ><input value=${product.count} id="quantity"  type="number" min="1" max="10"/></td>
                         <td id=“subtotal">${product.product.price*product.count}</td>
                         <td><button id=${product.product.id} type="button" class="card-button delete"> <i class="far fa-trash-alt" id=${product.product.id}></i></button></td>
                     </tr>
