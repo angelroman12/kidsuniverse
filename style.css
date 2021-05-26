@@ -234,7 +234,6 @@ form {
 }
 #table-body {
     margin: auto;
-   
     padding: 1rem;
     /* border: 1px solid #fb7813; */
     width: 70rem;
@@ -245,13 +244,25 @@ form {
     padding: 2rem 0rem;
     height: 2rem;
     color: #fbe6c2;
+    
+}
+
+#table-body thead th {
+    border-bottom: 1px solid #ac0d0d;
+    border-left: 1px solid #ac0d0d;
+    border-right: 1px solid #ac0d0d;
+    /* background-color: #eee6e6; */
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px 1px rgb(107, 104, 104);
 }
 #cart-body td {
     border-bottom: 1px solid #ac0d0d;
     border-left: 1px solid #ac0d0d;
     border-right: 1px solid #ac0d0d;
     background-color: #eee6e6;
-    
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px 1px rgb(107, 104, 104);
+    font-weight: bold;
 }
 #cart-body img {
     width: 6rem;
@@ -268,8 +279,8 @@ form {
     border-radius: 6px;
 }
 #cart-body .delete:hover, .title:hover {
-    background-color: #fbe6c2;
-    color: #000000;
+    background-color: #fee140;
+    color: #ac0d0d;
 }
 #cart-body .delete {
     /* box-shadow: 1px 1px 5px 2px #b6eb7a; */
@@ -320,13 +331,15 @@ form {
     cursor: pointer;
 }
 /*  ========================  Admin  ========================= */
-
+#adminContainer{
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+}
 #bookInput {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 35%;
     margin: auto;
-    
+    padding: 1rem;
 }
 
 .adminProduct img{
@@ -340,6 +353,7 @@ form {
     text-align: center;
     margin: 1rem auto;
     width: 16rem;
+    
 }
 
 .adminProduct .delete {
@@ -360,10 +374,13 @@ form {
 #picture, #title, #price, #stock {
     height: 2rem;
     margin: 0.3rem;
-    padding: 0.3rem;
-    border-radius: 6px;
+    padding-left: 0.6rem;
+    border-radius: 20px;
     border: none;
-    background-color: azure;
+    background-color: #f0c929;
+    outline: none;
+    color: #ac0d0d;
+    font-weight: bold;
 }
 
 #description {
@@ -371,20 +388,28 @@ form {
     padding: 0.3rem;
     border-radius: 6px;
     border: none;
-    background-color: azure;
+    background-color: #f0c929;
+    border-radius: 20px;
+    padding-left: 0.6rem;
+    color: #ac0d0d;
+    font-weight: bold;
+    outline: none;
+    
 }
 
 #submit, #submitComment {
     padding: 0.3rem;
     border-radius: 6px;
     border: none;
-    background-color: rgb(66, 114, 114);
+    background-color: #f0c929;
     margin: 0.4rem auto;
     cursor: pointer;
-    color: azure;
+    color: #ac0d0d;
     font-size: 1rem;
     font-weight: bold;
     height: 2rem;
+    border-radius: 20px;
+    
 }
 
 /* ===================================  Footer  =========================== */

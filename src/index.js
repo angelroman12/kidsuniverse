@@ -6,7 +6,7 @@ const mobilier = document.getElementById('mobilier');
 mobilier.addEventListener('click', getMobilier);
 function getMobilier () {
   output.innerHTML = "";
-  http.get("http://localhost:3000/mobilier")
+  http.get("https://60ae021e80a61f00173322ee.mockapi.io/mobilier")
       .then((data) => ui.productsInIndex(data));
 }
 
@@ -15,19 +15,19 @@ const biciclete = document.getElementById('biciclete')
 biciclete.addEventListener('click', getBiciclete);
 function getBiciclete(){
   output.innerHTML = "";
-  http.get("http://localhost:3000/biciclete")
+  http.get("https://60ae033e80a61f0017332321.mockapi.io/biciclete")
       .then((data) => ui.productsInIndex(data));
 }
 
 document.getElementById('boardgames').addEventListener('click', () => {
   output.innerHTML = "";
-  http.get("http://localhost:3000/boardgames")
+  http.get("https://60ae00fc80a61f00173322ab.mockapi.io/boardGames")
       .then((data) => ui.productsInIndex(data));
 })
 
 const allProducts = document.getElementById('allProducts').addEventListener("click", () =>{
   output.innerHTML = "";
-  http.get("http://localhost:3000/allProducts")
+  http.get("https://60adff9080a61f0017332272.mockapi.io/allProducts")
       .then((data) => ui.productsInIndex(data));
 })
 

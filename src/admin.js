@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', getProducts);
 
 function getProducts() {
 	http
-		.get("http://localhost:3000/allProducts")
+		.get("https://60adff9080a61f0017332272.mockapi.io/allProducts")
 		.then((data) => ui.productsAdmin(data));
 }
 // Add new product 
@@ -23,7 +23,7 @@ function addNewProduct() {
 		description: descriptionValue,
 	};
 	http
-		.post('http://localhost:3000/allProducts', product)
+		.post('https://60adff9080a61f0017332272.mockapi.io/allProducts', product)
 		.then((data) => productsAdmin());	
 		alert("Produsul a fost adaugat")	
 }
