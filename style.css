@@ -194,8 +194,8 @@ form {
     width: 33%;
     margin: auto;
 }
-.description h3, p, h4, button {
-    margin: 0.8rem;
+.description h3, p, h4, button, h5, #quantity {
+    margin-left: 0.8rem;
 }
 .beneficii {
    display: flex;
